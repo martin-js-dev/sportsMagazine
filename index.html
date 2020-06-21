@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sports magazine</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet"> 
+    
+    <script src="https://kit.fontawesome.com/dffb331276.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!-----------------------HERO SECTION------------------------>
+    <div class="today">
+        <script>
+            var today = new Date();
+            var days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+            var dayName = days[today.getDay()];
+            var dd = String(today.getDate()).padStart(2, '0');
+            var mm = String(today.getMonth() + 1).padStart(2, '0');
+            var yyyy = today.getFullYear();
+            
+            today = dayName + ' '+  dd + '.'+' ' + mm + '.'+ ' ' + yyyy;
+            document.write(today);</script>
+    </div>
+    <div class="hero-wrapper">
+        <div class="navigation">
+            <div class="first-nav">
+                <div class="left-nav">
+
+                    <div class="logo">
+                        <div class="logo-img">
+                            <img src="img/logo.png" alt="">
+                        </div>
+                    </div>
+                     
+                    <li>Join</li>
+                    <li>Streaming</li>
+                    <li>Odds</li>
+                    <li>Scores</li>
+                    <li>Blog</li>
+                
+
+                    <div class="social-links">
+                        <li><ion-icon name="logo-facebook"></ion-icon></li>
+                        <li><ion-icon name="logo-instagram"></ion-icon></li>
+                        <li><ion-icon name="logo-twitter"></ion-icon></li>
+                        <li><ion-icon name="logo-youtube"></ion-icon></li>
+                    </div>
+                </div>
+
+                
+            </div>
+
+        </div>
+
+        <div class="secound-nav">
+            <div class="navbar">
+                <span><a href="#">Home</a></span>
+                <span><a href="#">News</a></span>
+                <div class="dropdown">
+                  <button class="dropbtn">Football
+                    <i class="fa fa-caret-down"></i>
+                  </button>
+                  <div class="dropdown-content">
+                    <a href="#">Champions league</a>
+                    <a href="#">US Leagues</a>
+                    <a href="#">European leagues</a>
+                  </div>
+                </div>
+
+                <div class="dropdown">
+                    <button class="dropbtn">Basketball
+                      <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                      <a href="#">NBA</a>
+                      <a href="#">European league</a>
+                      <a href="#">Other leagues</a>
+                    </div>
+                </div>
+
+                <div class="dropdown">
+                    <button class="dropbtn">Tennis
+                      <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                      <a href="#">Wimbledon</a>
+                      <a href="#">US Open</a>
+                      <a href="#">Rolland Garos</a>
+                    </div>
+                </div>
+
+                <div class="dropdown">
+                    <button class="dropbtn">Athletics
+                      <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                      <a href="#">Marathons</a>
+                      <a href="#">Sprints</a>
+                      <a href="#">Other disciplines</a>
+                    </div>
+                </div>
+
+                <div class="dropdown">
+                    <button class="dropbtn">Fighting
+                      <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                      <a href="#">UFC</a>
+                      <a href="#">Boxing</a>
+                      <a href="#">Other disciplines</a>
+                    </div>
+                </div>
+
+                <div class="dropdown">
+                    <button class="dropbtn">Other sports
+                      <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                      <a href="#">Rugby</a>
+                      <a href="#">Handball</a>
+                      <a href="#">Golf</a>
+                      <a href="#">Volleyball</a>
+                      <a href="#">Baseball</a>
+                    </div>
+                </div>
+
+            </div>     
+             
+        </div>
+
+        <div class="trending-news">
+            <div class="ticker">
+                <div class="title"><h5>Trending News</h5></div>
+                <div class="news">
+                <marquee scrollamount = "3" behavior="slide" direction="left" onmouseover="this.stop()";>
+                    <a href="#"> Arsenal beat PSG last night in the Champions League Final</a>
+                    <a href="#"> Khabib Nurmagamedov wins by kockout in the first round vs. Conor Mc Gregor</a>
+                    <a href="#"> Golden State Warriors win 20 games in a row, and beat 20 year old record</a>
+                    <a href="#"> Lewis Hamilton is leaving Ferrari and will retire aged 35</a>
+                </marquee>
+                </div>
+            </div>    
+        </div>
