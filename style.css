@@ -219,3 +219,137 @@ body {
     color:black;
     
 }
+
+
+
+  
+.hero-images {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    display: flex;
+}
+
+  
+  
+.big-img {
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.2), rgba(0,0,0,0.4)),url(img/hero-1.jpg);
+    width: 35rem;
+    height: 25.5rem;
+    background-size: cover;
+    margin-left: 5rem;
+     
+}
+
+.big-img:hover{
+    transition: all 4s;
+    background-size: 110%;
+}
+
+.secound-img {
+    display: flex;
+    width: 40%;
+    margin-left: 2rem;
+}
+
+.hero-first{
+    margin-right: 0.5rem;
+    
+}
+
+
+.hero-2 {
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.2), rgba(0,0,0,0.4)),url(img/hero-2.jpg);
+    margin-bottom:0.5rem;
+      
+}
+
+
+.hero-3 {
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.2), rgba(0,0,0,0.4)),url(img/hero-3.jpg);
+    
+    
+}
+
+.hero-4 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0,0,0,0.4)), url(img/hero-4.jpg);
+    margin-bottom:0.5rem;
+    
+}
+
+.hero-5 {
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.2), rgba(0,0,0,0.4)),url(img/hero-5.jpg);
+    
+    
+}
+
+.hero-2, .hero-3, .hero-4, .hero-5 {
+    height: 12.5rem;
+    width: 16rem;
+    background-size: cover;
+    background-position: right bottom;
+    background-repeat: no-repeat;
+}
+ 
+.big-img:hover {
+    cursor: pointer;
+}
+.hero-2:hover, .hero-3:hover, .hero-4:hover, .hero-5:hover {
+    transition: all ;
+    
+    background-size: 120%;
+    cursor: pointer;
+}
+.blog-info {
+    position: absolute;
+    width: inherit;
+    height: inherit;
+    
+}
+
+.blog-info h3 {
+    font-weight: 400;
+    color: white;
+    font-size: 0.7rem;
+    margin-right: 7rem;
+    padding: 2px;
+    margin-left: 1rem;
+    margin-top: 7.5rem;
+    text-transform: uppercase;
+    background-color: #3a6b35;
+} 
+
+.blog-info1 h3 {
+    
+    
+    font-weight: 400;
+    color: white;
+    font-size: 0.7rem;
+    margin-left: 2rem;
+    margin-right: 26rem;
+    margin-top: 17rem;
+    text-transform: uppercase;
+    background-color: #3a6b35;
+    padding: 5px;
+    
+}
+
+.blog-info p {
+    
+    color:#fff;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.blog-info1 p {
+    
+    color:white;
+    padding-left: 2rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-right: 1rem;
+    
+    
+    
+}
