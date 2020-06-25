@@ -353,3 +353,159 @@ body {
     
     
 }
+
+/*---------------------NEWS-------------------*/
+.news-wrapper {
+    display: flex;
+}
+.flr-wrap {
+    margin-bottom: 5rem;
+    
+}
+.container {
+    display: none;
+}
+.button.active {
+    background-color: #3a6b35;
+}
+
+.buttons {
+    display: flex;
+    background-color: #f1eaea;
+    margin-right: 4rem;
+    margin-left: 5rem;
+    padding: 1rem;
+    
+}
+  
+.button {
+    margin-right: 2.5rem;
+}
+.buttons li a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #cbd18f;
+    padding: 7px 7px;
+    border-radius: 5px;
+    font-size: 0.9rem;
+}
+.buttons li {
+    list-style-type: none;
+}
+
+.most-viewed {
+    display: flex;
+}
+
+
+.main-article {
+    margin-left: 5rem;
+    width: 22rem;
+    margin-right: 7rem;
+}
+
+.main-article h1 {
+    color:#3a6b35;
+}
+
+.main-article span  {
+    color:#787e2a;
+}
+
+
+.main-article img {
+    height: 16rem;
+    width: 24rem;
+   
+}
+
+.main-article a {
+    text-decoration: none;
+    color:#3a6b35;
+    border: 1px solid #3a6b35;
+    padding: 5px;
+    font-size: 0.7rem;
+}
+
+.article {
+    margin-bottom: 2rem;
+    
+}
+
+.article a {
+    font-weight: 400;
+    color: white;
+    font-size: 0.5rem;
+    text-transform: uppercase;
+    background-color: #3a6b35;
+    padding: 3px 10px;
+    cursor: pointer;
+    margin-left: 0.5rem;
+    
+    
+}
+.other-articles {
+    position: relative;
+    width: 24rem;
+    
+}
+
+.other-articles h2 {
+    color:#3a6b35;
+    cursor: pointer;
+    
+}
+
+.other-articles span {
+    color:#787e2a;
+    
+}
+.article:after {
+    content: "";
+    border: 0.5px solid #f1eaea;
+    position: absolute;
+    width: 20rem;
+    height: 0.2px;
+    margin-top: 2rem;
+    margin-left: -8rem;
+   
+}
+
+.advert {
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.7), rgba(0,0,0,0.4)),url(img/stadium.jpg);
+    width: 15rem;
+    height: 26rem;
+    background-size: cover;
+    margin-left: 7rem;
+    color:#fff;
+   
+}
+
+.advert-cta {
+    
+    text-align: center;
+}
+.advert h1 {
+    text-transform: uppercase;
+    margin-top: 3rem;
+}
+
+.advert p {
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+    font-size: 1rem;
+    
+}
+
+.advert a {
+    background-color: #3a6b35;
+    color:#fff;
+    text-decoration: none;
+    padding: 7px 15px;
+    text-transform: uppercase;
+    
+}
+
+.advert a:hover {
+    background-color: #787e2a;
+}
