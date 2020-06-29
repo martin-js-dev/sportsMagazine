@@ -509,3 +509,91 @@ body {
 .advert a:hover {
     background-color: #787e2a;
 }
+
+
+
+/*-----------------------SECTION NEWS-----------------------*/
+
+.section-news {
+    margin-left: 5rem;
+}
+
+.title1 {
+    width: 16%;
+    text-align: center;
+    background:#3a6b35;
+    height: 3rem;
+    position: relative;
+    margin-bottom: 3rem;
+    margin-top: 4rem;
+    display: flex;
+}
+.title1:after {
+    position: absolute;
+    content: "";
+    right: -24%;
+    border-left: 25px solid #3a6b35;
+    border-top: 35px solid transparent;
+    border-right: 25px solid transparent;
+    border-bottom: 39px solid transparent;
+    top: -20%;
+}
+.title1 h1 {
+    font-size: 1rem;
+    text-transform: uppercase;
+    color:#fff;
+    padding-top: 0.3rem;
+    
+   
+}
+
+.section-articles {
+    display: flex;
+    width: 80%;
+    
+}
+
+.f-article {
+    margin-right: 1rem;
+}
+.f-article img {
+    width: 18rem;
+    height: 16rem;
+}
+
+
+.f-info {
+    width: 17rem;
+    
+}
+.f-info h1 {
+    font-size: 1rem;
+    color:#3a6b35;
+    cursor: pointer;
+}
+
+.f-info span {
+    color:rgb(120, 126, 42);
+    text-transform: uppercase;
+    font-size: 0.65rem;
+}
+.f-button {
+    margin-top: 1rem;
+    text-decoration: none;
+    border: 1px solid #3a6b35;
+    padding: 5px;
+    font-size: 0.7rem;
+    margin-right: 10rem;
+}
+
+.f-button a {
+    text-decoration: none;
+    color:#3a6b35;
+    padding-left: 7px;
+}
+
+.f-button a:hover {
+    color:#787e2a;
+}
+
+
