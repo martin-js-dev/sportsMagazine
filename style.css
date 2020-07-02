@@ -597,3 +597,130 @@ body {
 }
 
 
+
+/*-----------------------BASKETBALL-----------------------*/
+
+
+label  {
+	display: block;
+	padding: 5px;
+	font-size: 1rem;
+    color: black;
+    cursor: pointer;
+}
+
+fieldset {
+	margin-left: 27rem;
+	width: 15rem;
+	padding: 8px 15px 15px 15px;
+	border: 1px solid black;
+    display: block; 
+    background-color: #cbd18f;
+}
+
+legend {
+    padding: 4px 6px 4px 6px;
+    border: 1px solid black;
+    font-size: 1.2rem;
+    color: black;
+    font-style: italic;
+    background-color: #3a6b35;
+}
+
+.submit {
+    cursor: pointer;
+    margin-top: 2rem;
+    border: 1px solid #3a6b35;
+    padding: 5px 25px;
+    font-size: 1.2rem;
+    color: #3a6b35;
+   
+}
+
+.form {
+    height: 15rem;
+    
+}
+
+
+/*-----------------------TENNIS-----------------------*/
+
+.our-bets {
+    margin-left: 26rem;
+    width: 18rem;
+    margin-top: -3.5rem;
+    
+}
+
+.our-bets h1 {
+   padding-left: 5rem;
+}
+.matches-wrapper {
+    margin-left: 3rem;
+    margin-top: -1rem;
+    margin-bottom: 2rem;
+}
+.button-bet {
+    text-decoration: none;
+    cursor: pointer;
+    margin-left: 5.5rem;
+    border: 1px solid #3a6b35;
+    padding: 5px 25px;
+    font-size: 0.8rem;
+    color: #3a6b35;
+}
+.match-wrapper {
+    margin-top: 3rem;
+}
+
+.match-wrapper p {
+    padding-left: 4rem;
+    text-transform: uppercase;
+    font-size: 0.6rem;
+    margin-bottom: 0rem;
+    
+}
+
+.match {
+    display: flex;
+}
+.club {
+    display: block;
+    margin-right: -1.5rem;
+}
+
+
+.odds {
+    display: flex;
+    font-size: 0.5rem;
+    padding-top:1rem;
+    width: 10rem;
+    margin-left: 2rem;
+    margin-right: -2rem;
+}
+
+.odd {
+    display: flex;
+    padding-right: 0.4rem;
+}
+
+.odd i {
+    font-size: 1rem;
+    color:green;
+    padding-left: 0.2rem;
+}
+
+.odd span {
+    padding-left: 0.2rem;
+}
+.club img{
+    width: 2rem;
+    height: 2rem;
+}
+
+.tips {
+    display: flex;
+}
+.tips span {
+    padding-right: 2rem;
+}
