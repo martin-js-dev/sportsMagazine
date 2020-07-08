@@ -1,0 +1,1056 @@
+
+/*-----------general style-----------*/
+.html {
+    font-size: 62.5%;
+    
+    
+}
+
+body {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+       
+}
+
+h1 {
+    font-size: 1.2rem;
+}
+
+h2 {
+    font-size: 0.9rem;
+}
+
+p {
+    font-size: 0.8rem;
+}
+
+span {
+    font-size: 0.7rem;
+}
+
+a {
+    font-size: 0.9rem;
+}
+
+/*-----------------------HERO SECTION------------------------*/
+.today {
+    color:#3a6b35;
+    margin-left: 15rem;
+    margin-bottom: -2.5rem;
+    margin-top: 1rem;
+    font-weight: bold;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+}
+.hero-wrapper {
+    margin-left: 3rem;
+    margin-bottom: 5rem;
+}
+.navigation {
+    display: flex;
+    margin-right: 5rem;
+}
+
+.logo-img img {
+    width: 12rem;
+    height: 9rem;
+    margin-top: -2rem;
+}
+
+.first-nav {
+    margin-top: 2rem;
+    
+}
+
+
+.left-nav {
+    display: flex;
+}
+
+.left-nav li {
+    list-style-type: none;
+    padding-right: 3rem;
+    margin-top: 2rem;
+    cursor: pointer;
+    color:#3a6b35;
+    
+}
+
+.left-nav li:hover {
+    color: #cbd18f;
+}
+
+
+.social-links {
+    display: flex;
+    margin-left: 19rem;
+}
+
+.social-links li {
+    padding-right: 3rem;
+    color:#e3b448;
+}
+
+
+
+ .navbar {
+    overflow: hidden;
+    background-color: #3a6b35;
+    margin-left: 2.5rem;
+    margin-right: 5rem;
+    height: 4rem;
+    padding-left: 2rem;
+    
+  }
+  
+ 
+  .navbar a {
+    float: left;
+    font-size: 1.4rem;
+    color: white;
+    text-align: center;
+    padding: 1.4rem 1.6rem;
+    text-decoration: none; 
+    text-transform: uppercase;
+    
+
+  }
+  
+.navbar span a {
+    height: 4rem;
+    padding-top: 1.3rem;
+    font-size: 1rem;
+}
+
+  .dropdown {
+    float: left;
+    overflow: hidden;
+    height: 4rem;
+  }
+  
+
+  .dropdown .dropbtn {
+    font-size: 0.9rem;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    margin: 0;
+    height: 4rem;
+    width: 9.6rem;
+    padding-right: 0.4rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+
+  }
+  
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: 	#cbd18f;
+  }
+  
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 182px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    
+  }
+  
+ 
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    text-transform: unset;
+    font-size: 0.9rem;
+  }
+  
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  } 
+
+.trending-news {
+    margin-top: 1.5rem;
+    
+  
+}
+
+.ticker {
+    display: flex;
+    flex-wrap: wrap;
+    width: 91%;
+    margin-left:2.5rem;
+    
+    
+}
+.news {
+    width: 76%;
+    background: #cbd18f;
+    padding: 0 2%;
+}
+.title {
+    width: 20%;
+    text-align: center;
+    background:#3a6b35;
+    height: 3rem;
+    position: relative;
+}
+.title:after {
+    position: absolute;
+    content: "";
+    right: -19%;
+    border-left: 25px solid #3a6b35;
+    border-top: 35px solid transparent;
+    border-right: 25px solid transparent;
+    border-bottom: 39px solid transparent;
+    top: -20%;
+}
+.title h5 {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    margin: 8% 0;
+    color:#fff;
+   
+}
+.news marquee {
+    font-size: 0.85rem;
+    
+    padding-top: 1.3rem;
+}
+
+.news marquee a {
+    padding-right: 20rem;
+    text-decoration: none;
+    color:black;
+    
+}
+
+
+
+  
+.hero-images {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    display: flex;
+}
+
+  
+  
+.big-img {
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.2), rgba(0,0,0,0.4)),url(img/hero-1.jpg);
+    width: 35rem;
+    height: 25.5rem;
+    background-size: cover;
+    margin-left: 5rem;
+     
+}
+
+.big-img:hover{
+    transition: all 4s;
+    background-size: 110%;
+}
+
+.secound-img {
+    display: flex;
+    width: 40%;
+    margin-left: 2rem;
+}
+
+.hero-first{
+    margin-right: 0.5rem;
+    
+}
+
+
+.hero-2 {
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.2), rgba(0,0,0,0.4)),url(img/hero-2.jpg);
+    margin-bottom:0.5rem;
+      
+}
+
+
+.hero-3 {
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.2), rgba(0,0,0,0.4)),url(img/hero-3.jpg);
+    
+    
+}
+
+.hero-4 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0,0,0,0.4)), url(img/hero-4.jpg);
+    margin-bottom:0.5rem;
+    
+}
+
+.hero-5 {
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.2), rgba(0,0,0,0.4)),url(img/hero-5.jpg);
+    
+    
+}
+
+.hero-2, .hero-3, .hero-4, .hero-5 {
+    height: 12.5rem;
+    width: 16rem;
+    background-size: cover;
+    background-position: right bottom;
+    background-repeat: no-repeat;
+}
+ 
+.big-img:hover {
+    cursor: pointer;
+}
+.hero-2:hover, .hero-3:hover, .hero-4:hover, .hero-5:hover {
+    transition: all ;
+    
+    background-size: 120%;
+    cursor: pointer;
+}
+.blog-info {
+    position: absolute;
+    width: inherit;
+    height: inherit;
+    
+}
+
+.blog-info h3 {
+    font-weight: 400;
+    color: white;
+    font-size: 0.7rem;
+    margin-right: 7rem;
+    padding: 2px;
+    margin-left: 1rem;
+    margin-top: 7.5rem;
+    text-transform: uppercase;
+    background-color: #3a6b35;
+} 
+
+.blog-info1 h3 {
+    
+    
+    font-weight: 400;
+    color: white;
+    font-size: 0.7rem;
+    margin-left: 2rem;
+    margin-right: 26rem;
+    margin-top: 17rem;
+    text-transform: uppercase;
+    background-color: #3a6b35;
+    padding: 5px;
+    
+}
+
+.blog-info p {
+    
+    color:#fff;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.blog-info1 p {
+    
+    color:white;
+    padding-left: 2rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-right: 1rem;
+    
+    
+    
+}
+
+/*---------------------NEWS-------------------*/
+.news-wrapper {
+    display: flex;
+}
+.flr-wrap {
+    margin-bottom: 5rem;
+    
+}
+.container {
+    display: none;
+}
+.button.active {
+    background-color: #3a6b35;
+}
+
+.buttons {
+    display: flex;
+    background-color: #f1eaea;
+    margin-right: 4rem;
+    margin-left: 5rem;
+    padding: 1rem;
+    
+}
+  
+.button {
+    margin-right: 2.5rem;
+}
+.buttons li a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #cbd18f;
+    padding: 7px 7px;
+    border-radius: 5px;
+    font-size: 0.9rem;
+}
+.buttons li {
+    list-style-type: none;
+}
+
+.most-viewed {
+    display: flex;
+}
+
+
+.main-article {
+    margin-left: 5rem;
+    width: 22rem;
+    margin-right: 7rem;
+}
+
+.main-article h1 {
+    color:#3a6b35;
+}
+
+.main-article span  {
+    color:#787e2a;
+}
+
+
+.main-article img {
+    height: 16rem;
+    width: 24rem;
+   
+}
+
+.main-article a {
+    text-decoration: none;
+    color:#3a6b35;
+    border: 1px solid #3a6b35;
+    padding: 5px;
+    font-size: 0.7rem;
+}
+
+.article {
+    margin-bottom: 2rem;
+    
+}
+
+.article a {
+    font-weight: 400;
+    color: white;
+    font-size: 0.5rem;
+    text-transform: uppercase;
+    background-color: #3a6b35;
+    padding: 3px 10px;
+    cursor: pointer;
+    margin-left: 0.5rem;
+    
+    
+}
+.other-articles {
+    position: relative;
+    width: 24rem;
+    
+}
+
+.other-articles h2 {
+    color:#3a6b35;
+    cursor: pointer;
+    
+}
+
+.other-articles span {
+    color:#787e2a;
+    
+}
+.article:after {
+    content: "";
+    border: 0.5px solid #f1eaea;
+    position: absolute;
+    width: 20rem;
+    height: 0.2px;
+    margin-top: 2rem;
+    margin-left: -8rem;
+   
+}
+
+.advert {
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.7), rgba(0,0,0,0.4)),url(img/stadium.jpg);
+    width: 15rem;
+    height: 26rem;
+    background-size: cover;
+    margin-left: 7rem;
+    color:#fff;
+   
+}
+
+.advert-cta {
+    
+    text-align: center;
+}
+.advert h1 {
+    text-transform: uppercase;
+    margin-top: 3rem;
+}
+
+.advert p {
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+    font-size: 1rem;
+    
+}
+
+.advert a {
+    background-color: #3a6b35;
+    color:#fff;
+    text-decoration: none;
+    padding: 7px 15px;
+    text-transform: uppercase;
+    
+}
+
+.advert a:hover {
+    background-color: #787e2a;
+}
+
+
+/*-----------------------FOOTBALL-----------------------*/
+
+.section-news {
+    margin-left: 5rem;
+    display: flex;
+}
+
+.title1 {
+    width: 16%;
+    text-align: center;
+    background:#3a6b35;
+    height: 3rem;
+    position: relative;
+    margin-bottom: 3rem;
+    margin-top: 4rem;
+    display: flex;
+    margin-left: 5rem;
+}
+.title1:after {
+    position: absolute;
+    content: "";
+    right: -24%;
+    border-left: 25px solid #3a6b35;
+    border-top: 35px solid transparent;
+    border-right: 25px solid transparent;
+    border-bottom: 39px solid transparent;
+    top: -20%;
+}
+.title1 h1 {
+    font-size: 1rem;
+    text-transform: uppercase;
+    color:#fff;
+    padding-top: 0.3rem;
+    
+   
+}
+
+.section-articles {
+    display: flex;
+    width: 40%;
+    
+}
+
+.f-article {
+    margin-right: 1rem;
+}
+.f-article img {
+    width: 18rem;
+    height: 16rem;
+}
+
+
+.f-info {
+    width: 17rem;
+    
+}
+.f-info h1 {
+    font-size: 1rem;
+    color:#3a6b35;
+    cursor: pointer;
+}
+
+.f-info span {
+    color:rgb(120, 126, 42);
+    text-transform: uppercase;
+    font-size: 0.65rem;
+}
+.f-button {
+    margin-top: 1rem;
+    text-decoration: none;
+    border: 1px solid #3a6b35;
+    padding: 5px;
+    font-size: 0.7rem;
+    margin-right: 10rem;
+}
+
+.f-button a {
+    text-decoration: none;
+    color:#3a6b35;
+    padding-left: 7px;
+}
+
+.f-button a:hover {
+    color:#787e2a;
+}
+
+.score-table {
+    height: 30rem;
+    margin-left: 28rem;
+    font-size: 0.65rem;
+    margin-top: -4rem;
+    
+}
+.score-table h1 {
+    color: #3a6b35;;
+    text-transform: uppercase;
+    font-size: 1rem;
+    padding-left: 1rem;
+
+}
+
+
+
+.table-epl {
+   
+    
+}
+
+
+
+.table-heading-sub {
+    margin-left:8.3rem;
+    
+}
+
+.table-heading-sub span {
+    padding-right: 0.5rem;
+    color: #3a6b35;
+    font-weight: bold;
+    font-size: 0.7rem;
+}
+
+.table-back {
+    position: relative;
+}
+
+
+
+.table-epl td {
+   cursor: pointer;
+}
+
+.fist-place {
+    background-color: red;
+}
+/*-----------------------BASKETBALL-----------------------*/
+
+
+label  {
+	display: block;
+	padding: 5px;
+	font-size: 1rem;
+    color: black;
+    cursor: pointer;
+}
+
+fieldset {
+	margin-left: 27rem;
+	width: 15rem;
+	padding: 8px 15px 15px 15px;
+	border: 1px solid black;
+    display: block; 
+    background-color: #cbd18f;
+}
+
+legend {
+    padding: 4px 6px 4px 6px;
+    border: 1px solid black;
+    font-size: 1.2rem;
+    color: black;
+    font-style: italic;
+    background-color: #3a6b35;
+}
+
+.submit {
+    cursor: pointer;
+    margin-top: 2rem;
+    border: 1px solid #3a6b35;
+    padding: 5px 25px;
+    font-size: 1.2rem;
+    color: #3a6b35;
+   
+}
+
+.form {
+    height: 15rem;
+    
+}
+
+
+/*-----------------------TENNIS-----------------------*/
+
+.our-bets {
+    margin-left: 26rem;
+    width: 18rem;
+    margin-top: -3.5rem;
+    
+}
+
+.our-bets h1 {
+   padding-left: 5rem;
+   color:#3a6b35;
+}
+.matches-wrapper {
+    margin-left: 3rem;
+    margin-top: -1rem;
+    margin-bottom: 2rem;
+}
+.button-bet {
+    text-decoration: none;
+    cursor: pointer;
+    margin-left: 5.5rem;
+    border: 1px solid #3a6b35;
+    padding: 5px 25px;
+    font-size: 0.8rem;
+    color: #3a6b35;
+}
+.match-wrapper {
+    margin-top: 3rem;
+}
+
+.match-wrapper p {
+    padding-left: 4rem;
+    text-transform: uppercase;
+    font-size: 0.6rem;
+    margin-bottom: 0rem;
+    
+}
+
+.match {
+    display: flex;
+}
+.club {
+    display: block;
+    margin-right: -1.5rem;
+}
+
+
+.odds {
+    display: flex;
+    font-size: 0.5rem;
+    padding-top:1rem;
+    width: 10rem;
+    margin-left: 2rem;
+    margin-right: -2rem;
+}
+
+.odd {
+    display: flex;
+    padding-right: 0.4rem;
+}
+
+.odd i {
+    font-size: 1rem;
+    color:green;
+    padding-left: 0.2rem;
+}
+
+.odd span {
+    padding-left: 0.2rem;
+}
+.club img{
+    width: 2rem;
+    height: 2rem;
+}
+
+.tips {
+    display: flex;
+}
+.tips span {
+    padding-right: 2rem;
+}
+
+
+
+
+/*-----------------------OTHER SPORTS-----------------------*/
+
+.featured-posts {
+    margin-left: 27rem;
+    margin-top: -4rem;
+}
+.featured-posts h1 {
+    padding-bottom: 1rem;
+    color:#3a6b35;
+}
+.featured {
+    display: flex;
+    margin-bottom: 2rem;
+}
+.featured img {
+    width: 5rem;
+    height: 5rem;
+    cursor: pointer;
+}
+
+.featured-info{
+    margin-left: 1rem;
+    margin-top: -1rem;
+   
+}
+
+.featured-info h2 {
+    cursor: pointer;
+    width: 10rem;
+    color:#3a6b35;
+}
+
+.featured p {
+    color:rgb(120, 126, 42);
+}
+
+.featured span {
+    color:#3a6b35;
+
+}
+
+
+
+
+/*-----------------------FOOTER-----------------------*/
+
+.footer-wrapper {
+    margin-top: 5rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    background-color: #3a6b35;
+    color:#fff;
+}
+
+.footer {
+    display: flex;
+    padding-top: 2rem;
+    margin-left: 5rem;
+    padding-bottom: 5rem;
+}
+
+.about-us {
+    width: 20rem;
+    margin-left: 2rem;
+    
+}
+
+.about-us a {
+    
+    text-decoration: none;
+    padding: 10px;
+    font-size: 0.7rem;
+    margin-right: 10rem;
+    background-color: #cbd18f;
+   color:#3a6b35;;
+   text-transform: uppercase;
+}
+.about-us p {
+    margin-bottom: 2rem;
+    font-size: 0.9rem;
+    line-height:1.6rem;
+}
+.about-us h1 {
+    text-transform: uppercase;
+}
+.categories {
+    margin-left: 3rem;
+}
+.categories h1 {
+    margin-left: 4.5rem;
+    text-transform: uppercase;
+}
+.lists {
+    display: flex;
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+
+.list {
+    
+    margin-right: 3rem;
+}
+.list li {
+    list-style-type: none;
+    font-size: 1rem;
+    padding-bottom: 2rem;
+    cursor: pointer;
+}
+
+
+
+
+.p-article {
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.p-article img {
+    width: 5rem;
+    height: 5rem;
+}
+
+
+
+.newsletter-wrapper{
+    height:25rem;
+    margin-left: 4rem;
+    
+}
+  
+.newsletter{
+    
+    margin-left: 2rem;
+    
+}
+
+.newsletter-cta{
+    margin-left: 5rem;
+   
+}
+.newsletter label {
+    color:#fff;
+}
+
+.newsletter button {
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size: 0.8rem;
+    margin-right: 10rem;
+    margin-top: 1.5rem;
+    background-color: #cbd18f;
+    color:#3a6b35;;
+    cursor: pointer;
+    text-transform: uppercase;
+    border: none;;
+
+}
+.letter-text h3 {
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    width: 15rem;
+}
+
+.form-control {
+    width:25rem;
+    height: 2.7rem;
+    text-indent: 2rem;
+}
+.btn-info {
+    height: 3.4rem;
+    width: 10rem;
+    padding-left: 1rem;
+    border:none;
+    text-transform: uppercase;
+    
+}
+
+.btn-info:hover {
+    cursor: pointer;
+}
+  
+.checkbox1 {
+    cursor: pointer;
+}
+
+.u {
+    cursor: pointer;
+}
+
+
+
+.social1 {
+    display: flex;
+    margin-left: 18rem;
+    
+
+}
+
+.social1 li {
+    margin-right: 2.5rem;
+    list-style-type: none;
+    padding: 1rem;
+
+}
+
+.copy {
+    margin-left: 5rem;
+    font-size: 0.9rem;
+    text-align: center;
+    
+}
+.copy  {
+    color:#3a6b35;;
+    padding-top: 2rem;
+   
+}
+.ending {
+    display: flex;
+    padding-bottom: 1rem;
+    
+}
+
+.links {
+    display: flex;
+    font-size: 1.2rem;
+    
+    
+}
+
+.links p {
+    padding-right: 2.2rem;
+}
+
+.links a {
+    text-decoration: none;
+    color:#3a6b35;;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+
+.footer-bottom {
+    margin-top: -5rem;
+    background-color: #cbd18f;
+}
+.footer-bottom p a {
+    text-decoration: none;
+    font-weight: bold;  
+}
+
+
+.bottom {
+    display: flex;
+    margin-left: 5rem;
+    padding-bottom: 1rem;
+}
