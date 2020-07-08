@@ -1,0 +1,1141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sports magazine</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet"> 
+    <script src="https://kit.fontawesome.com/dffb331276.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/dffb331276.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!-----------------------HERO SECTION------------------------>
+    <div class="today">
+        <script>
+            var today = new Date();
+            var days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+            var dayName = days[today.getDay()];
+            var dd = String(today.getDate()).padStart(2, '0');
+            var mm = String(today.getMonth() + 1).padStart(2, '0');
+            var yyyy = today.getFullYear();
+            
+            today = dayName + ' '+  dd + '.'+' ' + mm + '.'+ ' ' + yyyy;
+            document.write(today);</script>
+    </div>
+    <div class="hero-wrapper">
+        <div class="navigation">
+            <div class="first-nav">
+                <div class="left-nav">
+
+                    <div class="logo">
+                        <div class="logo-img">
+                            <img src="img/logo.png" alt="">
+                        </div>
+                    </div>
+                     
+                    <li>Join</li>
+                    <li>Streaming</li>
+                    <li>Odds</li>
+                    <li>Scores</li>
+                    <li>Blog</li>
+                
+
+                    <div class="social-links">
+                        <li><ion-icon name="logo-facebook"style="font-size: 20px;"></ion-icon></li>
+                        <li><ion-icon name="logo-instagram" style="font-size: 20px;"></ion-icon></li>
+                        <li><ion-icon name="logo-twitter" style="font-size: 20px;"></ion-icon></li>
+                        <li><ion-icon name="logo-youtube" style="font-size: 20px;"></ion-icon></li>
+                    </div>
+                </div>
+
+                
+            </div>
+
+        </div>
+
+        <div class="secound-nav">
+            <div class="navbar">
+                <span><a href="#">Home</a></span>
+                <span><a href="#">News</a></span>
+                <div class="dropdown">
+                  <button class="dropbtn">Football
+                    <i class="fa fa-caret-down"></i>
+                  </button>
+                  <div class="dropdown-content">
+                    <a href="#">Champions league</a>
+                    <a href="#">US Leagues</a>
+                    <a href="#">European leagues</a>
+                  </div>
+                </div>
+
+                <div class="dropdown">
+                    <button class="dropbtn">Basketball
+                      <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                      <a href="#">NBA</a>
+                      <a href="#">European league</a>
+                      <a href="#">Other leagues</a>
+                    </div>
+                </div>
+
+                <div class="dropdown">
+                    <button class="dropbtn">Tennis
+                      <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                      <a href="#">Wimbledon</a>
+                      <a href="#">US Open</a>
+                      <a href="#">Rolland Garos</a>
+                    </div>
+                </div>
+
+                <div class="dropdown">
+                    <button class="dropbtn">Athletics
+                      <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                      <a href="#">Marathons</a>
+                      <a href="#">Sprints</a>
+                      <a href="#">Other disciplines</a>
+                    </div>
+                </div>
+
+                <div class="dropdown">
+                    <button class="dropbtn">Fighting
+                      <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                      <a href="#">UFC</a>
+                      <a href="#">Boxing</a>
+                      <a href="#">Other disciplines</a>
+                    </div>
+                </div>
+
+                <div class="dropdown">
+                    <button class="dropbtn">Other sports
+                      <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                      <a href="#">Rugby</a>
+                      <a href="#">Handball</a>
+                      <a href="#">Golf</a>
+                      <a href="#">Volleyball</a>
+                      <a href="#">Baseball</a>
+                    </div>
+                </div>
+
+            </div>     
+             
+        </div>
+
+        <div class="trending-news">
+            <div class="ticker">
+                <div class="title"><h5>Trending News</h5></div>
+                <div class="news">
+                <marquee scrollamount = "3" behavior="slide" direction="left" onmouseclick="this.stop()";>
+                    <a href="#"> Arsenal beat PSG last night in the Champions League Final</a>
+                    <a href="#"> Khabib Nurmagamedov wins by kockout in the first round vs. Conor Mc Gregor</a>
+                    <a href="#"> Golden State Warriors win 20 games in a row, and beat 20 year old record</a>
+                    <a href="#"> Lewis Hamilton is leaving Ferrari and will retire aged 35</a>
+                </marquee>
+                </div>
+            </div>    
+        </div>
+
+        <div class="hero-images">
+
+            <div class="big-img">
+                <div class="blog-info1">
+                    <h3>Horse racing</h3>
+                    <p>Last year winner does it again, this time in front of a home crowd</p>
+                    
+                </div>
+            </div>
+
+            <div class="secound-img">
+                <div class="hero-first">
+                    <div class="hero-2">
+                        <div class="blog-info">
+                            <h3>motocross</h3>
+                            <p>Victory for John Nicholas in the Mallorca race</p>
+                            
+                        </div>
+                    </div>
+                    <div class="hero-3"><div class="blog-info">
+                        <h3> waterpolo</h3>
+                        <p>Montenegro beat Argentina in the semi finals</p>
+                        
+                    </div></div>
+                </div>
+
+                <div class="hero-secound">
+                    <div class="hero-4"><div class="blog-info">
+                        <h3>women football</h3>
+                        <p>LA Galaxy women win 10 games in a row</p>
+                        
+                    </div></div>
+                    <div class="hero-5">
+                        <div class="blog-info">
+                            <h3>olympic games</h3>
+                            <p>The race on 400m in South Africa is postponed</p>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-----------------------NEWS----------------------->
+  
+        <div class="flr-wrap">
+            <ul class="buttons">
+                <li><a class="button active" data-rel="#content-a" href="#">Most viewed</a></li>
+                <li><a class="button" data-rel="#content-b" href="#">Recent</a></li>
+                <li><a class="button" data-rel="#content-c" href="#">Popular</a></li>
+                <li><a class="button" data-rel="#content-d" href="#">Most commented</a></li>
+            </ul>
+            
+            <div class="flr-inner">
+                <div class="container" id="content-a">
+                    <div class="most-viewed">
+                        <div class="main-article">
+                            <img src="img/news-1.jpg" alt="">
+                            <h1>Tiger Woods makes his first billion this year</h1>
+                            <span>by Richard Moore</span>
+                            <span>Oct 23 2019</span>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ultricies justo id nulla semper facilisis in id nisi. </p>
+                            <a href="#">Read more</a>
+                        </div>
+
+                        <div class="other-articles">
+                            <div class="article">
+                                <h2>CSKA Moskva will build a new stadium</h2>
+                                <span>May 10 2019</span>
+                                <a class="cathegory">Football</a>
+                            </div>
+
+                            <div class="article">
+                                <h2>From pain to pleasure: Novak Djokovic's rocky road to magnificent seven</h2>
+                                <span>May 10 2019</span>
+                                <a  class="cathegory">Tennis</a>
+                            </div>
+
+                            <div class="article">
+                                <h2>Bryce Harper signs with Phillies </h2>
+                                <span>May 10 2019</span>
+                                <a class="cathegory">Baseball</a>
+                            </div>
+
+                            <div class="article">
+                                <h2>U.S. women’s soccer team wins third World Cup </h2>
+                                <span>May 10 2019</span>
+                                <a  class="cathegory">Football</a>
+                            </div>
+
+                            <div class="article">
+                                <h2> Washington Nationals win World Series </h2>
+                                <span>May 10 2019</span>
+                                <a  class="cathegory">Rugby</a>
+                            </div>
+                        </div>
+
+                        <div class="advert">
+                            <div class="advert-cta">
+                                <h1>Following matches?</h1>
+                                <p>Join our streaming service</p>
+                                <a href="#">Join now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container" id="content-b">
+                    <div class="most-viewed">
+                        <div class="main-article">
+                            <img src="img/news-2.jpg" alt="">
+                            <h1>Wimbledon 2019 is ready to host 100.000 guests</h1>
+                            <span>by Richard Moore</span>
+                            <span>Oct 23 2019</span>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ultricies justo id nulla semper facilisis in id nisi. </p>
+                            <a href="#">Read more</a>
+                        </div>
+
+                        <div class="other-articles">
+                            <div class="article">
+                                <h2>Patriots win Super Bowl in Atlanta </h2>
+                                <span>May 10 2019</span>
+                                <a  class="cathegory">Football</a>
+                            </div>
+
+                            <div class="article">
+                                <h2>Warriors and Kings set NBA all-time record for combined threes</h2>
+                                <span>May 10 2019</span>
+                                <a class="cathegory">Basketball</a>
+                            </div>
+
+                            <div class="article">
+                                <h2>Cody Parkey’s ‘double doink’ ends Bears’ playoff hopes</h2>
+                                <span>May 10 2019</span>
+                                <a class="cathegory">Football</a>
+                            </div>
+
+                            <div class="article">
+                                <h2>Sarah Thomas becomes first female NFL ref to officiate a playoff game</h2>
+                                <span>May 10 2019</span>
+                                <a  class="cathegory">Hockey</a>
+                            </div>
+
+                            <div class="article">
+                                <h2>Search ends for missing Cardiff City player Emiliano Sala’s plane</h2>
+                                <span>May 10 2019</span>
+                                <a  class="cathegory">Football</a>
+                            </div>
+                        </div>
+
+                        <div class="advert">
+                            <div class="advert-cta">
+                                <h1>Following matches?</h1>
+                                <p>Join our streaming service</p>
+                                <a href="#">Join now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                <div class="container" id="content-c">
+                    <div class="most-viewed">
+                        <div class="main-article">
+                            <img src="img/news-3.jpg" alt="">
+                            <h1>Lewis Hamilton finishes secound as Kimi Raiconen takes over the lead</h1>
+                            <span>by Richard Moore</span>
+                            <span>Oct 23 2019</span>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ultricies justo id nulla semper facilisis in id nisi. </p>
+                            <a href="#">Read more</a>
+                        </div>
+
+                        <div class="other-articles">
+                            <div class="article">
+                                <h2>Sergio Garcia disqualified midway through Saudi International</h2>
+                                <span>May 10 2019</span>
+                                <a  class="cathegory">Tennis</a>
+                            </div>
+
+                            <div class="article">
+                                <h2>Patriots win sixth Super Bowl in lowest-scoring game in history</h2>
+                                <span>May 10 2019</span>
+                                <a class="cathegory">Football</a>
+                            </div>
+
+                            <div class="article">
+                                <h2>Russell Westbrook breaks NBA record with 10th consecutive triple-double</h2>
+                                <span>May 10 2019</span>
+                                <a class="cathegory">Basketball</a>
+                            </div>
+
+                            <div class="article">
+                                <h2>Manny Machado agrees to largest free-agent deal in American sports history</h2>
+                                <span>May 10 2019</span>
+                                <a class="cathegory">Boxing</a>
+                            </div>
+
+                            <div class="article">
+                                <h2>LeBron James passes Michael Jordan for fourth in all-time scoring</h2>
+                                <span>May 10 2019</span>
+                                <a class="cathegory">Basketball</a>
+                            </div>
+                        </div>
+
+                        <div class="advert">
+                            <div class="advert-cta">
+                                <h1>Following matches?</h1>
+                                <p>Join our streaming service</p>
+                                <a href="#">Join now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container" id="content-d">
+                    <div class="most-viewed">
+                        <div class="main-article">
+                            <img src="img/news-4.jpg" alt="">
+                            <h1>Dodgers hit MLB Opening Day record eight home runs</h1>
+                            <span>by Richard Moore</span>
+                            <span>Oct 23 2019</span>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ultricies justo id nulla semper facilisis in id nisi. </p>
+                            <a href="#">Read more</a>
+                        </div>
+
+                        <div class="other-articles">
+                            <div class="article">
+                                <h2>Giants trade Odell Beckham Jr. to Browns in blockbuster deal</h2>
+                                <span>May 10 2019</span>
+                                <a  class="cathegory">Baseball</a>
+                            </div>
+
+                            <div class="article">
+                                <h2>Dirk Nowitzki passes Wilt Chamberlain for sixth in all-time scoring</h2>
+                                <span>May 10 2019</span>
+                                <a  class="cathegory">Basketball</a>
+                            </div>
+
+                            <div class="article">
+                                <h2>Dodgers hit MLB Opening Day record eight home runs</h2>
+                                <span>May 10 2019</span>
+                                <a class="cathegory">Baseball</a>
+                            </div>
+
+                            <div class="article">
+                                <h2>Tampa Bay Lightning win 62nd game, tying NHL record</h2>
+                                <span>May 10 2019</span>
+                                <a class="cathegory">Hockey</a>
+                            </div>
+
+                            <div class="article">
+                                <h2>Virginia wins NCAA basketball national championship, avenges 2018 upset</h2>
+                                <span>May 10 2019</span>
+                                <a  class="cathegory">Basketball</a>
+                            </div>
+                        </div>
+
+                        <div class="advert">
+                            <div class="advert-cta">
+                                <h1>Following matches?</h1>
+                                <p>Join our streaming service</p>
+                                <a href="#">Join now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!--------------------Section-news FOOTBALL----------------------->
+    <div class="title1">
+        <ion-icon name="football-outline" style="color:#fff; font-size: 2rem;padding-left:1rem;padding-top:0.5rem; padding-right:1rem"></ion-icon>
+        <h1>Football</h1>
+    </div>
+    <div class="section-news">
+        
+
+        <div class="section-articles">
+            
+            <div class="f-article">
+                <img src="img/football-1.jpg" alt="">
+                <div class="f-info">
+                    <h1>Davidson saves a penalty against Barnley</h1>
+                    <span>by Richard Moore</span>
+                    <span>Oct 23 2019</span>
+                    
+                    <div class="f-button"><a href="#">Read more</a></div>
+                </div>
+            </div>
+
+            <div class="f-article">
+                <img src="img/football-2.jpg" alt="">
+                <div class="f-info">
+                    <h1>Paul Williams is out for the rest of the season</h1>
+                    <span>by Richard Moore</span>
+                    <span>Oct 23 2019</span>
+                  
+                    <div class="f-button"><a href="#">Read more</a></div>
+                </div>
+            </div>
+
+            <div class="f-article">
+                <img src="img/football-3.jpg" alt="">
+                <div class="f-info">
+                    <h1>Austria wins last night in front of 60.000 people</h1>
+                    <span>by Richard Moore</span>
+                    <span>Oct 23 2019</span>
+                   
+                    <div class="f-button"><a href="#">Read more</a></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="score-table">
+            <h1>Premier League Table </h1>
+        
+        
+            <div class="table-heading">
+                
+                <div class="table-heading-sub">
+                    <span>MP</span>
+                    <span>GF</span>
+                    <span>GA</span>
+                    <span>Pts</span>
+                </div>
+               
+                
+                
+            </div>
+            <table class="table-epl"  width="250" height="400" cellspacing="3"cellpadding="3" >
+                
+                <div class="table-back">
+                    
+                    <tr style="background-color:#3a6b35;color:#fff;">
+                    <td>1</td>
+                    <td>Chelsea</td>
+                    <td>20</td>
+                    <td>42</td>
+                    <td>15 </td>
+                    <td>49 </td>
+                    
+                    </tr>
+                    <tr style="background-color:#3a6b35;color:#fff;">
+                    <td>2</td>
+                    <td>Liverpool </td>
+                    <td>20</td>
+                    <td>48 </td>
+                    <td>23 </td>
+                    <td>44 </td>
+                    
+                    </tr>
+                    
+                    <tr style="background-color:#3a6b35;color:#fff;">
+                    <td>3 </td>
+                    <td> Tottenham </td>
+                    <td>20</td>
+                    <td>39 </td>
+                    <td>14 </td>
+                    <td>42 </td>
+                    
+                    </tr>
+                    <tr style="background-color:#3a6b35; color:#fff;">
+                    <td>4 </td>
+                    <td>Man.City </td>
+                    <td>20 </td>
+                    <td>41 </td>
+                    <td>22 </td>
+                    <td>42 </td>
+                
+                    
+                    </tr>
+                    <tr style="background-color:rgb(241, 229, 229); ">
+                    <td>5 </td>
+                    <td>Arsenal </td>
+                    <td>20</td>
+                    <td>44 </td>
+                    <td>22 </td>
+                    <td>41 </td>
+                    
+                    </tr>
+                    <tr style="background-color:rgb(241, 229, 229);">
+                    <td>6 </td>
+                    <td>Man United </td>
+                    <td>20</td>
+                    <td>31 </td>
+                    <td>19 </td>
+                    <td>39 </td>
+                    
+                    </tr>
+                    <tr style="background-color:rgb(241, 229, 229);">
+                    <td>7 </td>
+                    <td>Everton </td>
+                    <td>20</td>
+                    <td>28 </td>
+                    <td>23 </td>
+                    <td>30 </td>
+                    
+                    </tr>
+                    
+                    
+                    
+                    <tr style="background-color:rgb(241, 229, 229);">
+                    <td>8 </td>
+                    <td>West Brom </td>
+                    <td>20</td>
+                    <td>28 </td>
+                    <td>24 </td>
+                    <td>29 </td>
+                    
+                    </tr>
+                    <tr style="background-color:rgb(241, 229, 229);">
+                    <td>9 </td>
+                    <td> BourneMouth </td>
+                    <td>20</td>
+                    <td>29 </td>
+                    <td>34 </td>
+                    <td>25 </td>
+                    
+                    
+                    <tr style="background-color:rgb(241, 229, 229);">
+                    <td>10 </td>
+                    <td>Southampton </td>
+                    <td> 20 </td>
+                    <td> 19 </td>
+                    <td> 25 </td>
+                    <td> 24 </td>
+                    
+                    </tr>
+                    <tr style="background-color:rgb(241, 229, 229);">
+                    <td>11 </td>
+                    <td>Stock City </td>
+                    <td>20 </td>
+                    <td>24 </td>
+                    <td>32 </td>
+                    <td>24 </td>
+                    
+                    </tr>
+                    <tr style="background-color:rgb(241, 229, 229);">
+                    <td>12 </td>
+                    <td>Burnly Fc </td>
+                    <td>20 </td>
+                    <td>22 </td>
+                    <td>31 </td>
+                    <td>23 </td>
+                    
+                    </tr>
+                    <tr style="background-color:rgb(241, 229, 229);">
+                    <td>13 </td>
+                    <td>West Ham </td>
+                    <td>20</td>
+                    <td>23 </td>
+                    <td>35 </td>
+                    <td>22 </td>
+                    
+                    </tr>
+                    <tr style="background-color:rgb(241, 229, 229);">
+                    <td>14 </td>
+                    <td>Watford </td>
+                    <td>20</td>
+                    <td>23 </td>
+                    <td>36 </td>
+                    <td>22 </td>
+                    
+                    </tr>
+                    
+                    <tr style="background-color:rgb(241, 229, 229);">
+                    <td >15 </td>
+                    <td>Leicester City </td>
+                    <td>20</td>
+                    <td>24 </td>
+                    <td>31 </td>
+                    <td> 21 </td>
+                    
+                    </tr>
+                    <tr style="background-color:rgb(241, 229, 229);">
+                    <td>16 </td>
+                    <td> Middlesbrough </td>
+                    <td>20</td>
+                    <td>17 </td>
+                    <td>22 </td>
+                    <td>19 </td>
+                    
+                    </tr>
+                    <tr style="background-color:rgb(194, 67, 67); color:#fff;">
+                    <td>17 </td>
+                    <td>Crystal Palace </td>
+                    <td>20</td>
+                    <td>30 </td>
+                    <td>37 </td>
+                    <td>16 </td>
+                    
+                    </tr>
+                    <tr style="background-color:rgb(194, 67, 67); color:#fff;">
+                    <td>18 </td>
+                    <td>Sunderland </td>
+                    <td>20</td>
+                    <td>19 </td>
+                    <td>37 </td>
+                    <td>15 </td>
+                    
+                    </tr>
+                    <tr style="background-color:rgb(194, 67, 67); color:#fff;">
+                    <td>19 </td>
+                    <td>Swansea City </td>
+                    <td>20</td>
+                    <td>23 </td>
+                    <td>45 </td>
+                    <td>15 </td>
+                    
+                    </tr>
+                    <tr style="background-color:rgb(194, 67, 67); color:#fff;">
+                    <td>20 </td>
+                    <td> Hull City </td>
+                    <td>20</td>
+                    <td>17 </td>
+                    <td>44 </td>
+                    <td>13 </td>
+                    
+                    </tr>
+                    </tbody>
+                </div>
+            </table>
+        </div>
+    </div>
+    
+
+    
+    </div>
+
+
+    <!----------------------- Section-news BASKETBALL----------------------->
+    <div class="title1">
+        <ion-icon name="basketball-outline" style="color:#fff; font-size: 2rem;padding-left:1rem;padding-top:0.5rem; padding-right:1rem"></ion-icon>
+        <h1>Basketball</h1>
+    </div>
+    <div class="section-news">
+        
+
+        <div class="section-articles">
+            
+            <div class="f-article">
+                <img src="img/basketball-1.jpg" alt="">
+                <div class="f-info">
+                    <h1>New Yersey Ballots wins 10 in a row</h1>
+                    <span>by Richard Moore</span>
+                    <span>Oct 23 2019</span>
+                    
+                    <div class="f-button"><a href="#">Read more</a></div>
+                </div>
+            </div>
+
+            <div class="f-article">
+                <img src="img/basketball-2.jpg" alt="">
+                <div class="f-info">
+                    <h1>No NBA matches this weekend to watch</h1>
+                    <span>by Richard Moore</span>
+                    <span>Oct 23 2019</span>
+                  
+                    <div class="f-button"><a href="#">Read more</a></div>
+                </div>
+            </div>
+
+            <div class="f-article">
+                <img src="img/basketball-3.jpg" alt="">
+                <div class="f-info">
+                    <h1>Famous referee Dickson retires early</h1>
+                    <span>by Richard Moore</span>
+                    <span>Oct 23 2019</span>
+                   
+                    <div class="f-button"><a href="#">Read more</a></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="poll">
+            <fieldset>
+                <legend>Who will win the Champions League?</legend>
+                <form class="form"  name="form1" >
+                    <label>
+                        <input type="checkbox" name="Poll"  />
+                        Arsenal
+                     </label>
+                    <label>
+                        <input type="checkbox" name="Poll"  />
+                        PSG
+                    </label>
+                    <label>
+                        <input type="checkbox" name="Poll"  />
+                        Real Madrid
+                    </label>
+                    <label>
+                        <input type="checkbox" name="Poll"  />
+                        Barcelona
+                    </label>
+                    <label>
+                        <input type="checkbox" name="Poll"  />
+                        Liverpool
+                    </label>
+                    <input type="submit" name="submit" class="submit" value="Vote" />
+                    
+                </form>
+            </fieldset>
+        </div>
+
+    </div>
+
+
+
+    <!----------------------- Section-news TENNIS----------------------->
+    <div class="title1">
+        <ion-icon name="tennisball-outline" style="color:#fff; font-size: 2rem;padding-left:1rem;padding-top:0.5rem; padding-right:1rem"></ion-icon>
+        <h1>Tennis</h1>
+    </div>
+    <div class="section-news">
+        
+
+        <div class="section-articles">
+            
+            <div class="f-article">
+                <img src="img/tennis-1.jpg" alt="">
+                <div class="f-info">
+                    <h1>Federrer wins in the wimbledon semi finals</h1>
+                    <span>by Richard Moore</span>
+                    <span>Oct 23 2019</span>
+                    
+                    <div class="f-button"><a href="#">Read more</a></div>
+                </div>
+            </div>
+
+            <div class="f-article">
+                <img src="img/tennis-2.jpg" alt="">
+                <div class="f-info">
+                    <h1>No audience last night in Australia </h1>
+                    <span>by Richard Moore</span>
+                    <span>Oct 23 2019</span>
+                  
+                    <div class="f-button"><a href="#">Read more</a></div>
+                </div>
+            </div>
+
+            <div class="f-article">
+                <img src="img/tennis-3.jpg" alt="">
+                <div class="f-info">
+                    <h1>Serbia wins Doubles against Norway</h1>
+                    <span>by Richard Moore</span>
+                    <span>Oct 23 2019</span>
+                   
+                    <div class="f-button"><a href="#">Read more</a></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="our-bets">
+            <h1>Top matches</h1>
+            <div class="matches-wrapper">
+               <div class="match-wrapper">
+                   <p>June, 21st 2020</p>
+                    <div class="match">
+                        <div class="club">
+                            <img src="img/logo-1.png" alt="">
+                            
+                        </div>
+
+                        <div class="odds">
+                           
+                            <div class="odd">
+                                
+                                <i class="fas fa-long-arrow-alt-up"></i>
+                                <span>2.50</span>
+                            </div>
+                            <div class="odd">
+                                
+                                <i class="fas fa-long-arrow-alt-up"></i>
+                                <span>3.50</span>
+                            </div>
+                            <div class="odd">
+                                
+                                <i class="fas fa-long-arrow-alt-down" style="color:red"></i>
+                                <span>1.80</span>
+                            </div>
+                        </div>
+
+                        <div class="club">
+                            <img src="img/logo-2.png" alt="">
+                            
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <div class="match-wrapper">
+                    <p>June, 19 2020</p>
+                     <div class="match">
+                         <div class="club">
+                             <img src="img/logo-3.jpg" alt="">
+                             
+                         </div>
+ 
+                         <div class="odds">
+                            
+                             <div class="odd">
+                                 
+                                 <i class="fas fa-long-arrow-alt-down" style="color:red"></i>
+                                 <span>1.50</span>
+                             </div>
+                             <div class="odd">
+                                 
+                                 <i class="fas fa-long-arrow-alt-up"></i>
+                                 <span>3.50</span>
+                             </div>
+                             <div class="odd">
+                                 
+                                 <i class="fas fa-long-arrow-alt-up" ></i>
+                                 <span>1.90</span>
+                             </div>
+                         </div>
+ 
+                         <div class="club">
+                             <img src="img/logo-4.png" alt="">
+                             
+                         </div>
+                     </div>
+                     
+                 </div>
+
+                 <div class="match-wrapper">
+                    <p>June, 15 2020</p>
+                     <div class="match">
+                         <div class="club">
+                             <img src="img/logo-5.png" alt="">
+                            
+                         </div>
+ 
+                         <div class="odds">
+                            
+                             <div class="odd">
+                                 
+                                 <i class="fas fa-long-arrow-alt-up"></i>
+                                 <span>2.0</span>
+                             </div>
+                             <div class="odd">
+                                 
+                                 <i class="fas fa-long-arrow-alt-down" style="color:red"></i>
+                                 <span>3.20</span>
+                             </div>
+                             <div class="odd">
+                                 
+                                 <i class="fas fa-long-arrow-alt-up" ></i>
+                                 <span>1.80</span>
+                             </div>
+                         </div>
+ 
+                         <div class="club">
+                             <img src="img/logo-6.png" alt="">
+                             
+                         </div>
+                     </div>
+                     
+                 </div>
+
+                 <div class="match-wrapper">
+                    <p>June, 11th 2020</p>
+                     <div class="match">
+                         <div class="club">
+                             <img src="img/logo-7.jpg" alt="">
+                             
+                         </div>
+ 
+                         <div class="odds">
+                            
+                             <div class="odd">
+                                 
+                                 <i class="fas fa-long-arrow-alt-down" style="color:red"></i>
+                                 <span>1.60</span>
+                             </div>
+                             <div class="odd">
+                                 
+                                 <i class="fas fa-long-arrow-alt-up"></i>
+                                 <span>3.50</span>
+                             </div>
+                             <div class="odd">
+                                 
+                                 <i class="fas fa-long-arrow-alt-up" ></i>
+                                 <span>2.80</span>
+                             </div>
+                         </div>
+ 
+                         <div class="club">
+                             <img src="img/logo-4.png" alt="">
+                             
+                         </div>
+                     </div>
+                     
+                 </div>
+               </div>
+
+               <a class="button-bet" href="#">View more</a>
+            </div>
+
+
+            
+        </div>
+
+         
+
+    </div>
+
+
+    
+
+
+    <!----------------------- Section-news OTHER SPORTS----------------------->
+    <div class="title1">
+        <ion-icon name="ellipsis-vertical-outline" style="color:#fff; font-size: 2rem;padding-left:1rem;padding-top:0.5rem; padding-right:0.2rem"></ion-icon>
+        <h1>Other sports</h1>
+    </div>   
+    <div class="section-news">
+        
+
+        <div class="section-articles">
+            
+            <div class="f-article">
+                <img src="img/other-1.jpg" alt="">
+                <div class="f-info">
+                    <h1>Tours de France starts on Monday</h1>
+                    <span>by Richard Moore</span>
+                    <span>Oct 23 2019</span>
+                    
+                    <div class="f-button"><a href="#">Read more</a></div>
+                </div>
+            </div>
+
+            <div class="f-article">
+                <img src="img/other-2.jpg" alt="">
+                <div class="f-info">
+                    <h1>New York Patriots win last night against the Eagles</h1>
+                    <span>by Richard Moore</span>
+                    <span>Oct 23 2019</span>
+                  
+                    <div class="f-button"><a href="#">Read more</a></div>
+                </div>
+            </div>
+
+            <div class="f-article">
+                <img src="img/other-3.jpg" alt="">
+                <div class="f-info">
+                    <h1>Serbia volleyball team win the world cup</h1>
+                    <span>by Richard Moore</span>
+                    <span>Oct 23 2019</span>
+                   
+                    <div class="f-button"><a href="#">Read more</a></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="featured-posts">
+            <h1>Featured posts</h1>
+            <div class="featured">
+                <img src="img/featured-1.jpg" alt="">
+                <div class="featured-info">
+                    <h2>Fitness improves productivity </h2>
+                    <p>by Richard Moore</p>
+                    <span>Oct 23 2019</span> 
+                </div>
+            </div>
+
+            <div class="featured">
+                <img src="img/featured-2.jpg" alt="">
+                <div class="featured-info">
+                    <h2>Biggest ski jump in 2020</h2>
+                    <p>by Richard Moore</p>
+                    <span>Oct 23 2019</span> 
+                </div>
+            </div>
+
+            <div class="featured">
+                <img src="img/featured-3.jpg" alt="">
+                <div class="featured-info">
+                    <h2>China wins ping pong cup </h2>
+                    <p>by Richard Moore</p>
+                    <span>Oct 23 2019</span> 
+                </div>
+            </div>
+
+            <div class="featured">
+                <img src="img/featured-4.jpg" alt="">
+                <div class="featured-info">
+                    <h2>Hockey is the most popular sport in Canada </h2>
+                    <p>by Richard Moore</p>
+                    <span>Oct 23 2019</span> 
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    
+
+
+
+    
+
+    <!-----------------------FOOTER----------------------->
+
+    <div class="footer-wrapper">
+       
+        <div class="footer">
+
+            <div class="about-us">
+                <h1>About us</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque at est tincidunt, volutpat leo id, accumsan arcu. Maecenas sit amet aliquam metus.</p>
+                <a href="#">Read more</a>
+            </div>
+    
+            <div class="categories">
+                <h1>categories</h1>
+                <div class="lists">
+                    <div class="list">
+                        <li>Football</li>
+                        <li>Basketball</li>
+                        <li>Tennis</li>
+                        <li>Other sports</li>
+                    </div>
+        
+                    <div class="list">
+                        <li>Baseball</li>
+                        <li>Handball</li>
+                        <li>Boxing</li>
+                        <li>Hockey</li>
+                    </div>
+                </div>
+            </div>
+    
+           
+    
+            <div class="newsletter-wrapper newsletter-img">
+                <div class="newsletter">
+                    <div class="letter-text">
+                        <h3>Subscribe to our newsletter </h1>
+                    </div>
+        
+                    <form>
+                        <label for="fname">First name:</label>
+                        <input type="text" id="fname" name="fname"  style="height: 20px;width:10rem;margin-top: 0.5rem;">
+                        <label for="lname"style="margin-top:1rem;">Last name:</label>
+                        <input type="text" id="lname" name="lname" style="height: 20px; width:10rem;margin-top: 0.5rem;">
+                        <label for="email"style="margin-top:1rem;">Email:</label>
+                        <input type="text" id="email" name="email" style="height: 20px; width:10rem;margin-top: 0.5rem;">
+
+                        
+                    </form> 
+                    <button>Subscribe</button>
+                </div>
+            </div>
+        </div>
+
+    
+        <div class="footer-bottom">
+            <p class="copy">© 2020. Sports News .All Rights Reserved</p>
+
+            <div class="bottom">
+                <div class="links">
+                    <p><a href="#">Terms of service</a></p>
+                    <p><a href="#">Privacy policy</a></p>
+                    <p><a href="#">Security</a></p>
+                </div>
+
+                <div class="social1">
+                    <li><a href="#" class="fb"><ion-icon name="logo-facebook" style=" color:#3a6b35;;;font-size: 20px;"></ion-icon></a></li>
+                    <li><a href="#" class="tw"><ion-icon name="logo-twitter" style=" color:#3a6b35;;;font-size: 20px;"></ion-icon></a></li>
+                    <li><a href="#" class= "gp" style=" color:#3a6b35;;;font-size: 20px;"><ion-icon name="logo-instagram"></ion-icon></a></li>
+                    <li><a href="#"><ion-icon name="logo-linkedin"  style=" color:#3a6b35;;;font-size: 20px;"></ion-icon></a></li>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+    
+    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+</body>
+</html>
